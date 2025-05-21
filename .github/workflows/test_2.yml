@@ -12,3 +12,5 @@ jobs:
 
       - name: ls
         uses: ./actions/my-action
+        with:
+          message: "Oscar"
