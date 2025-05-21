@@ -1,6 +1,6 @@
 name: Test Composite action
 
-on: [push]
+on: #[push]
 
 jobs:
   local-action:
