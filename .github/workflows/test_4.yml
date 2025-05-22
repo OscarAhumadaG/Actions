@@ -10,5 +10,7 @@ jobs:
 
     steps:
       - name: Test
+        env:
+          STEP_MY_VAR: "My step environment variable"
         run: |
-          echo "Value: $MY_VAR"
+          echo "Value: $STEP_MY_VAR"
