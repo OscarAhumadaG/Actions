@@ -1,0 +1,13 @@
+name: Composite Action Example
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    env:
+      MY_VAR: My environment variable
+
+    steps:
+      - name: Test
+        run: echo "Value: $MY_VAR"
